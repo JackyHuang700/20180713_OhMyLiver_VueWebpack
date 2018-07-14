@@ -1,6 +1,6 @@
 <template>
   <div>
-    asfds
+    <p>Test Paragraph.</p>
   </div>
 </template>
 
@@ -8,5 +8,10 @@
 
 export default {
   name: 'navbar',
+  created () {
+
+    (function () {
+    }())
+  },
 }
 </script>
