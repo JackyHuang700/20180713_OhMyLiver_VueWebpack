@@ -4,9 +4,11 @@ import router from './router'
 import store from './store'
 import './registerServiceWorker'
 
-
+//jquery
 window.$ = window.jQuery = require('jquery')
-
+// bootstrap4
+import 'popper.js'
+import 'bootstrap'
 
 Vue.config.productionTip = false
 
