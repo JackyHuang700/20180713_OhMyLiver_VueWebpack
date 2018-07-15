@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      For guide and recipes on how to configure / customize this project,<br>
+      For guide and recipes on how to configure / customize this project,<br />
       check out the
       <a href="https://cli.vuejs.org" target="_blank">vue-cli documentation</a>.
     </p>
@@ -10,7 +10,9 @@
     <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank">babel</a></li>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa" target="_blank">pwa</a></li>
+      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank">eslint</a></li>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-unit-mocha" target="_blank">unit-mocha</a></li>
+      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-e2e-cypress" target="_blank">e2e-cypress</a></li>
     </ul>
     <h3>Essential Links</h3>
     <ul>
@@ -34,8 +36,8 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
-  }
+    msg: String,
+  },
 }
 </script>
 

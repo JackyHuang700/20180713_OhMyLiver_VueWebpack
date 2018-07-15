@@ -5,13 +5,11 @@
 </template>
 
 <script>
-
 export default {
   name: 'navbar',
   created () {
-
     (function () {
-    }())
+    })()
   },
 }
 </script>
